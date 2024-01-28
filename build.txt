@@ -1,0 +1,1 @@
+pyinstaller main.py -D  --noconfirm --collect-all clip --collect-all sdkit --collect-all basicsr --hidden-import realesrgan --collect-all realesrgan --hidden-import gfpgan --collect-all gfpgan --name "sdkit-cli" --i favicon.ico
